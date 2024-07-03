@@ -325,9 +325,9 @@
 
 <section id="title-slide" data-background-color="#2A76DD" data-background-size="cover" class="center">
   <h1 class="title">Effects of Misinformation on Online Discussions</h1>
-  <p class="subtitle">Emotional Speech Workshop</p>
+  <p class="subtitle">Workshop: Emotional Speech</p>
   <p class="author">Jula Luehring</p>
-  <p class="date">July 5th, 2024</p>
+  <p class="date">Bochum, July 5th, 2024</p>
 </section>
 
 <section id="misinformation-and-emotions" class="slide level2">
@@ -371,10 +371,25 @@
 <section>
 <section id="do-arousing-emotions-make-people-believe-in-misinformation" class="title-slide slide level1 center">
 <h1>Do (arousing) emotions make people believe in misinformation?</h1>
-
+<aside class="notes">
+<ol type="a">
+<li><p>it is hard to trigger emotions in a lab setting and</p></li>
+<li><p>the observational evidence that we have is mostly based on survey or social media data from the US</p></li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="emotional-state" class="slide level2">
-<h2>Emotional state <img data-src="images/simple-relationship.png" width="300"></h2>
+<h2>Emotional state<img data-src="images/simple-relationship.png" width="300"></h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <ul>
@@ -397,11 +412,27 @@
 </section>
 <section id="emotional-response" class="slide level2">
 <h2>Emotional response</h2>
-<p><span class="math inline">\(\rightarrow\)</span> More anger and less joy in response to false news</p>
-<div class="fragment">
+<div class="columns">
+<div class="column" style="width:35%;">
+<ul>
+<li>In response to false news:
+<ul>
+<li>More anger</li>
+<li>Less joy</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/emo_diff_plot_color.svg" width="500"></p>
+</div>
+</div>
+<div class="footer">
+<p>Luehring*, Shetty*, et al., <a href="https://psyarxiv.com/udqms/">2023</a></p>
+</div>
+</section>
+<section id="emotional-response-depends-on-priors" class="slide level2">
+<h2>Emotional response depends on priors</h2>
 <p>🗯 <em>“Bullshit”, “Fake”</em></p>
 <p><img data-src="images/curvi-linear.svg" width="800"></p>
-</div>
 <div class="fragment">
 <div class="columns">
 <div class="column" style="width:70%;">
@@ -439,7 +470,7 @@
 <ul>
 <li class="fragment"><p>mixing up different timings of emotions,</p></li>
 <li class="fragment"><p>ignoring the function of emotions,</p></li>
-<li class="fragment"><p>measuring positive and negative sentiment only.</p></li>
+<li class="fragment"><p>measuring positive/negative sentiment only.</p></li>
 </ul>
 </div>
 </section></section>
@@ -637,7 +668,7 @@
 <section id="machine-learning-classification" class="slide level2">
 <h2>Machine learning classification</h2>
 
-<img data-src="images/daily_emotions_rating_smoothed.png" width="600" class="r-stretch"><p>pol_emo_mDeBERTa (Widmann &amp; Wich, <a href="https://doi.org/10.1017/pan.2022.15">2022</a>; Macro F1=0.7)</p>
+<img data-src="images/daily_emotions_rating_smoothed.png" width="600" class="r-stretch"><p>pol_emo_mDeBERTa (Widmann &amp; Wich, <a href="https://doi.org/10.1017/pan.2022.15">2022</a>)</p>
 <aside class="notes">
 <p>We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources</p>
 <ul>
@@ -655,6 +686,11 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="validation" class="slide level2">
+<h2>Validation</h2>
+<p><img data-src="images/validation_results_r2.png" width="600"> <span class="math inline">\(\rightarrow\)</span> “hope”, “proud”</p>
+<p><span class="math inline">\(\rightarrow\)</span> inter-coder reliability?</p>
 </section></section>
 <section>
 <section id="part-i-emotion-in-the-post" class="title-slide slide level1 center">
@@ -876,12 +912,12 @@
 <h1>Conclusion (tentative)</h1>
 
 </section>
-<section id="emotions-rightarrow-emotions-rightarrow-engagement" class="slide level2">
-<h2>Emotions <span class="math inline">\(\rightarrow\)</span> emotions <span class="math inline">\(\rightarrow\)</span> engagement?</h2>
+<section id="emotions-rightarrow-emotions" class="slide level2">
+<h2>Emotions <span class="math inline">\(\rightarrow\)</span> emotions?</h2>
 <ul>
 <li>Sources with low trustworthiness predict anger</li>
 <li>Emotions in discussions largely reflect emotions in initial post</li>
-<li>Is engagement with low trustworthiness due to other factors?</li>
+<li>Is engagement with low trustworthiness due to the topic or sensationalism?</li>
 </ul>
 <p><span class="math inline">\(\rightarrow\)</span> Not the factfulness is harmful, but the content</p>
 <p><span class="math inline">\(\rightarrow\)</span> Misinformation is a perfect tool to spread hateful content</p>

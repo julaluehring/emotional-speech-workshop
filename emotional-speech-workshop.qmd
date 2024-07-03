@@ -1,8 +1,8 @@
 ---
 title: "Effects of Misinformation on Online Discussions"
 author: "Jula Luehring"
-subtitle: "Emotional Speech Workshop"
-date: "July 5th, 2024"
+subtitle: "Workshop: Emotional Speech"
+date: "Bochum, July 5th, 2024"
 format: 
   revealjs: 
     seal: false
@@ -68,7 +68,15 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [
 
 # Do (arousing) emotions make people believe in misinformation?
 
-## Emotional state ![](images/simple-relationship.png){width="300"}
+::: notes
+
+a) it is hard to trigger emotions in a lab setting and
+
+b) the observational evidence that we have is mostly based on survey or social media data from the US
+
+:::
+
+## Emotional state![](images/simple-relationship.png){width="300"}
 
 ::: columns
 ::: {.column width="35%"}
@@ -99,17 +107,33 @@ $\rightarrow$ No effects of emotional state on misinformation acceptance
 Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Martel et al., [2020](https://link.springer.com/article/10.1186/s41235-020-00252-3)
 :::
 
-## Emotional response 
 
-$\rightarrow$ More anger and less joy in response to false news
+## Emotional response
+
+::: columns
+::: {.column width="35%"}
+-   In response to false news:
+    -   More anger
+    -   Less joy
+
+:::
+
+::: {.column width="60%"}
+![](images/emo_diff_plot_color.svg){width="500"}
+:::
+:::
+
+::: footer
+Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
+:::
 
 
-::: fragment
+## Emotional response depends on priors
 
 🗯 *"Bullshit", "Fake"*
 
 ![](images/curvi-linear.svg){width="800"}
-::: 
+
 
 ::: fragment 
 
@@ -159,9 +183,10 @@ Different effects of emotions are overlooked by
 
   -   ignoring the function of emotions,
 
-  -   measuring positive and negative sentiment only.
+  -   measuring positive/negative sentiment only.
 
 :::
+
 
 # Misinformation on social media
 
@@ -338,8 +363,7 @@ Posts from Twitter/X mentioning any of 347 German news domains
 
 ![](images/daily_emotions_rating_smoothed.png){width="600"}
 
-
-pol_emo_mDeBERTa (Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15); Macro F1=0.7)
+pol_emo_mDeBERTa (Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15))
 
 
 ::: notes
@@ -349,6 +373,11 @@ We collected roughly 9 million twitter discussions where a German news domain wa
 -   This plot shows the covered time frame from October 2020 to March 2022 and we can already see that anger is overall much higher
 :::
 
+## Validation
+![](images/validation_results_r2.png){width="600"}
+$\rightarrow$ "hope", "proud"
+
+$\rightarrow$ inter-coder reliability?
 
 # Part I: Emotion in the post
 
@@ -579,12 +608,12 @@ Out-group classification (Lasser at al., 2023; F1=0.8)
 # Conclusion (tentative)
 
 
-## Emotions $\rightarrow$ emotions $\rightarrow$ engagement?
+## Emotions $\rightarrow$ emotions?
 
 
 -   Sources with low trustworthiness predict anger
 -   Emotions in discussions largely reflect emotions in initial post
--   Is engagement with low trustworthiness due to other factors?
+-   Is engagement with low trustworthiness due to the topic or sensationalism?
 
 
 $\rightarrow$ Not the factfulness is harmful, but the content
