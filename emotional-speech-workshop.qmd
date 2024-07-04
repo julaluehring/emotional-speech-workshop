@@ -70,6 +70,8 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [
 
 ::: notes
 
+Evidence is not so clear because 
+
 a) it is hard to trigger emotions in a lab setting and
 
 b) the observational evidence that we have is mostly based on survey or social media data from the US
@@ -127,6 +129,12 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Martel et al.
 Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 :::
 
+::: notes
+
+But we also looked at the emotional response as a more immediate measure of emotions and we found more anger and less joy in response to the false items
+
+:::
+
 
 ## Emotional response depends on priors
 
@@ -161,13 +169,13 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Van Damme & S
 
 ::: notes
 
-But we also looked at the emotional response as a more immediate measure of emotions and we found more anger and less joy in response to the false items
-
 However, we also included some open-ended items and we found that people reacted with disbelief, they said things like bullshit or nonse
 
 So here in this plot you can see a non-linear relationship between discernment and anger, and we can see that people who were really good at discerning true from false and the ones who were really bad at it got angry
 
 Therefore, the function of emotions depends on prior beliefs and it mediates the effect of misinformation
+
+Post-exposure measures may be better to capture emotional processes
 
 ::: 
 
@@ -187,6 +195,11 @@ Different effects of emotions are overlooked by
 
 :::
 
+::: notes
+
+Emotions are functional; and the function of emotions hinges on the interaction of prior beliefs and content. Therefore, measuring only positive and negative sentiment, or mixing up emotional state with emotional reactions overlooks the contextual effects of different emotions.
+
+:::
 
 # Misinformation on social media
 
@@ -196,10 +209,15 @@ Different effects of emotions are overlooked by
 
 -   Elite and ordinary partisan superspreaders
     
-![](images/altay-spread.png){width=600}
+![Altay et al., ](images/altay-spread.png){width=600}
 
 $\rightarrow$ Most people are exposed to misleading, biased content
 
+::: footer
+
+Allcott & Gentzkow, [2017](https://pubs.aeaweb.org/doi/10.1257/jep.31.2.211); Allen et al., [2020](https://doi.org/10.1126/sciadv.aay3539); Allen et al., [2024](https://www.science.org/doi/full/10.1126/science.adk3451); Altay et al., [2022](https://journalqd.org/article/view/3617); Baribi-Bartov et al., [2024](https://www.science.org/doi/10.1126/science.adl4435); Guess et al., [2020](https://www.nature.com/articles/s41562-020-0833-x)
+
+:::
 
 ## But is it a contained problem?
 
@@ -225,7 +243,7 @@ $\rightarrow$ **Secondary effects:** affective polarization and decreasing trust
 :::
 
 ::: footer
-Allen et al., [2024](https://www.science.org/doi/full/10.1126/science.adk3451); Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Baribi-Bartov et al., [2024](https://www.science.org/doi/10.1126/science.adl4435); Leach & Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
+Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Leach & Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
 :::
 
 ::: notes
@@ -318,7 +336,6 @@ We identified two problems that we wanted to tackle in this study
 
     -   So the question is, are the effects that we are observing unique to misinformation?
 
--   Second, emotions are functional; and the function of emotions hinges on the interaction of prior beliefs and content. Therefore, measuring only positive and negative sentiment, or mixing up emotional state with emotional reactions overlooks the contextual effects of different emotions.
 :::
 
 ## Our objectives
@@ -376,6 +393,12 @@ $\rightarrow$ 93.8% trustworthy (>60)
 
 ::: 
 
+::: notes
+
+We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources
+
+::: 
+
 ## Machine learning classification
 
 
@@ -385,8 +408,6 @@ pol_emo_mDeBERTa (Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15))
 
 
 ::: notes
-We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources
-
 -   For each tweet, we then classified 8 distinct emotions and out-group references from text
 -   This plot shows the covered time frame from October 2020 to March 2022 and we can already see that anger is overall much higher
 :::
@@ -405,6 +426,12 @@ We collected roughly 9 million twitter discussions where a German news domain wa
 🗯 *"I hope...",* 
 
 *"I'm proud..."*
+
+<br>
+
+$\rightarrow$ Properties of emotions?
+
+$\rightarrow$ Imbalance?
 
 :::
 
@@ -486,7 +513,7 @@ Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
 :::
 
 ::: notes
-Lastly, we wanted to look at the associations between trustworthiness and engagement
+We wanted to look at the associations between trustworthiness and engagement
 
 Here, we included the zero replies, which zero-inflated the distribution, which you can see in the top corner
 
@@ -533,6 +560,11 @@ $\rightarrow$ Does trustworthiness actually affect emotional reactions?
 
 ::: notes
 Now, we are zooming in on the tweets that got at least one reply and the following discussion thread
+
+NewsGuard sets a threshold at a trustworthiness score at 60, such that sources below 60 are considered untrustworthy
+
+We used this classification to create two conditions (trustworthy vs untrustworthy) and then applied a nonparametric matching approach to balance the dataset based on a set of covariates
+
 :::
 
 ## Nonparametric matching
@@ -557,9 +589,6 @@ Ho et al., [2007](https://www.cambridge.org/core/journals/political-analysis/art
 :::
 
 ::: notes
-NewsGuard sets a threshold at a trustworthiness score at 60, such that sources below 60 are considered untrustworthy
-
-We used this classification to create two conditions (trustworthy vs untrustworthy) and then applied a nonparametric matching approach to balance the dataset based on a set of covariates
 
 Those are the political orientation of the source, the initial emotion in the tweet, following, follower and tweet counts, as well as the word count of the first tweet
 
