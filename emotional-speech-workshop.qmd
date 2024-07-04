@@ -142,7 +142,7 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 ::: {.column width="70%"}
 
 
-$\rightarrow$ Function of emotion depends on existing beliefs
+$\rightarrow$ Post-exposure measures are more meaningful in the context of misinformation
 
 :::
 
@@ -240,29 +240,35 @@ Allen et al., [2024](https://www.science.org/doi/full/10.1126/science.adk3451); 
 
 ::: columns
 
-::: {.column width="60%"}
+::: {.column width="50%"}
+**STORY**
+![](images/factcheck.png){width="3000"}
 
-![](images/newsguard-quadrant.png){width="3000"}
-:::
+$\rightarrow$ extreme and clearly false
+
+$\rightarrow$ fringe communities
+
+::: 
 
 
-::: {.column width="40%"}
+
+::: {.column width="50%"}
 
 ::: fragment 
 
-![](images/bias.png){width="300"}
+**SOURCE**
+![](images/tichyseinblick.png){width="3000"}
 
-:::
+$\rightarrow$ biased and misleading
+
+$\rightarrow$ everyone
+
+::: 
 
 :::
 
 ::: 
 
-::: fragment 
-
-$\rightarrow$ How do these choices influence downstream research results?
-
-:::
 
 ::: footer
 Luehring, Lasser et al., (*in prep.*)
@@ -284,7 +290,7 @@ Luehring, Lasser et al., (*in prep.*)
 
 ::: incremental
 
-Misinformation is measured as clearly true or false instances,
+Misinformation is often measured as clearly true or false instances,
 
 
   -   neglecting less extreme types,
@@ -340,13 +346,11 @@ So, we derived 2 major objectives:
 
 ::: columns
 ::: {.column width="50%"}
-Posts from Twitter/X mentioning any of 347 German news domains 
+1. Collect posts from Twitter/X mentioning any of 347 German news domains 
+
+2. Collect random sample of discussions
 
 <br>
-
-*N* = 9.3M discussions (20.6M tweets total)
-
-93.8% trustworthy (>60)
 
 :::
 
@@ -356,7 +360,13 @@ Posts from Twitter/X mentioning any of 347 German news domains
 :::
 :::
 
+::: fragment 
 
+$\rightarrow$ *N* = 9.3M discussions
+
+$\rightarrow$ 93.8% trustworthy (>60)
+
+::: 
 
 ## Machine learning classification
 
@@ -374,10 +384,23 @@ We collected roughly 9 million twitter discussions where a German news domain wa
 :::
 
 ## Validation
-![](images/validation_results_r2.png){width="600"}
-$\rightarrow$ "hope", "proud"
 
-$\rightarrow$ inter-coder reliability?
+::: columns
+
+::: {.column width="75%"}
+ 
+![](images/validation_results_r2_kalpha.png){width="600"}
+:::
+
+::: {.column width="25%"}
+
+🗯 *"I hope...",* 
+
+*"I'm proud..."*
+
+:::
+
+:::
 
 # Part I: Emotion in the post
 
@@ -611,14 +634,13 @@ Out-group classification (Lasser at al., 2023; F1=0.8)
 ## Emotions $\rightarrow$ emotions?
 
 
--   Sources with low trustworthiness predict anger
--   Emotions in discussions largely reflect emotions in initial post
--   Is engagement with low trustworthiness due to the topic or sensationalism?
+-   More anger in the context of misinformation $\rightarrow$ but also gray-area content!
 
+-   Emotions in discussions largely reflect emotions in initial post $\rightarrow$ not trustworthiness!
 
-$\rightarrow$ Not the factfulness is harmful, but the content
+$\rightarrow$ No unique effects of misinformation 
 
-$\rightarrow$ Misinformation is a perfect tool to spread hateful content
+$\rightarrow$ Misinformation spreads because of degrees of freedom
 
 
 ::: notes
@@ -629,6 +651,11 @@ $\rightarrow$ Misinformation is a perfect tool to spread hateful content
 
 
 # Thank you!
+
+![](images/collaborators.png){width="400"}
+
+
+# Get in touch
 
 ::: columns
 ::: {.column width="60%"}
@@ -645,6 +672,8 @@ X: [\@lue_jula](https://twitter.com/lue_jula)
 ![](images/frame.png){width="600"}
 :::
 :::
+
+# Appendix 
 
 ## Is lower trustworthiness associated with higher engagement? {visibility="uncounted"}
 
