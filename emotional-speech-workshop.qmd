@@ -190,23 +190,31 @@ Different effects of emotions are overlooked by
 
 # Misinformation on social media
 
-## Collective dynamics online
+## Misinformation is a minority problem
 
+-   Only 0.3-6% in 5 studies from 2016-2021
+
+-   Elite and ordinary partisan superspreaders
+    
+![](images/altay-spread.png){width=600}
+
+$\rightarrow$ Most people are exposed to misleading, biased content
+
+
+## But is it a contained problem?
 
 -   Moralizing and arousing content gets high engagement
 
--   Misinformation: conflict and negative
-
-    -   **But:** only 0.3-6% in 5 studies from 2016-2021
-    -   Elite and ordinary partisan superspreaders
-
+-   Misinformation: conflict, negative, polarizing
 
 ::: columns
 ::: {.column width="50%"}
-::: fragment
-$\rightarrow$ Misinformation is embedded in partisan intergroup dynamics
 
-$\rightarrow$ Secondary effects?
+-   Misinformation is embedded in partisan intergroup dynamics
+
+::: fragment
+
+$\rightarrow$ **Secondary effects:** affective polarization and decreasing trust ?
 
 ::: 
 :::
