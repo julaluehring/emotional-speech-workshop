@@ -149,8 +149,9 @@ But we also looked at the emotional response as a more immediate measure of emot
 
 ::: {.column width="70%"}
 
+$\rightarrow$ Emotions are contextual & functional
 
-$\rightarrow$ Post-exposure measures are more meaningful in the context of misinformation
+$\rightarrow$ Post-exposure measures may be more meaningful
 
 :::
 
@@ -404,7 +405,9 @@ We collected roughly 9 million twitter discussions where a German news domain wa
 
 ![](images/daily_emotions_rating_smoothed.png){width="600"}
 
-pol_emo_mDeBERTa (Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15))
+5 basic emotions + "political emotions" 
+
+pol_emo_mDeBERTa (Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15); Macro F1=0.72)
 
 
 ::: notes
